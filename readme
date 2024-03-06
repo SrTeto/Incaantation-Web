@@ -1,4 +1,12 @@
-Pagina Web desarrollada por mi. 
-El fin de este mini proyecto  era de desarrollar una Pagina web utilizando solo elementos html y hojas de estilo, no posee Javascript , ni utilizo ningun frameWork. 
 
-En versiones Posteriores pretendo utilizar otras tecnologias para mejorar su funcionamiento. 
+Página web desarrollada por mí.
+
+El propósito de este proyecto fue crear una página web utilizando únicamente HTML y hojas de estilo, prescindiendo de JavaScript y cualquier framework. La temática de esta web está inspirada en una tienda online de productos e ingredientes "esotéricos" destinados para la realización de pociones, hechizos, encantamientos, rituales, etc.
+
+Está compuesta por una página principal que simula una tienda, exhibiendo artículos y un "carrito" visual que no tiene funcionalidad, ya que los artículos colocados son únicamente de demostración. Los botones en el archivo index.html no están operativos en esta versión.
+
+Además, cuenta con un formulario (form.html) que simula la página de registro para los usuarios que deseen darse de alta en la web. También incluye una sección de Preguntas Frecuentes (faq.html) con datos ficticios, destinada a complementar y dar estructura a la web.
+
+La página web es responsive y se adapta a pantallas de hasta 450px de tamaño.
+
+En futuras versiones, se planea utilizar otras tecnologías para mejorar su funcionamiento.
