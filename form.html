@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registro</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div></div>
+            <div><H1>Incaantation</H1></div>
+            <div>Adalberto Carrasco</div>
+        </header>
+        <nav>
+            <div><a href="index.html" ><h3>Inicio</h3></a></div>
+            <div><a href="index.html#tienda" ><h3>Tienda</h3></a></div>
+            <div><img src="img/logoNewPNGBlanco.png"></div>
+            <div><a href="form.html"><h3>Registro</h3></a></div>
+            <div><a href="faq.html"><h3>FAQ</h3></a></div>
+        </nav>
+    
+    
+        <form method="post">
+            <H1>Registro</H1>
+            <fieldset>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="obligatorio" required placeholder="Obligatorio">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido"  id="obligatorio" required placeholder="Obligatorio">
+                <label for="user">Nombre de Usuario</label>
+                <input type="text" name="user"  required id="obligatorio"  placeholder="Obligatorio" minlength="8" >
+                <label for="genero">Genero</label>
+                <p>
+                    <input type="radio" name="genero" value="Bruja">Bruja <br/>
+                    <input type="radio" name="genero" value="Hechicero">Hechicero <br/>
+                    <input type="radio" name="genero" value="noEspecificado">No Especifico <br/>
+                </p>
+                <label for="nacimiento">Fecha de Nacimiento</label>
+                <input type="date" name="nacimiento" required > 
+                <label for="correo" name="correo">Correo</label>
+                <input type="email" name="correo" id="obligatorio" pattern=".*@.*\..*" required placeholder="Obligatorio">
+                <label for="passwd" name="password">Contraseña</label>
+                <input type="password" required id="obligatorio" placeholder="Obligatorio">
+                <label>Experiencia</label>
+                <input list="experiencia">
+                <datalist id="experiencia">
+                    <option value="Mortal">Sin Experiencia</option>
+                    <option value="Novato">Aprendiz</option>
+                    <option value="Maestro">Veterano</option>
+                    <option value="Profesional">Hechizero Supremo</option>
+                </datalist>
+                <label>Comentarios</label>
+                <textarea>
+                </textarea>
+                <p>
+                <label for="newsletter">Quieres enterarte de nuestras Ofertas?</label>
+                <input type="checkbox" value="si" >
+                </p>
+                <p>
+                  Por politicas de la empresa, debes leer y aceptar nuestros <a href="https://www.youtube.com/watch?v=DLzxrzFCyOs"  target="_blank"> Terminos y condiciones</a>
+                  <br>
+                    <input type="checkbox" value="acepto" required>
+                    </p>
+
+                 <input type="submit" class="btnEnviar">
+                 <input type="reset" class="btnEnviar">
+            </fieldset>
+        </form>
+        <footer >
+            <div>
+                <p><a href="faq.html">Preguntas Frecuentes</a></p>
+                <p>Hacemos envios dentro de la peninsula, Ceuta y melilla y a Paises dentro de la comunidad Europea</p>
+            </div>
+            <div>
+                <p>¿Donde Estamos?</p>
+                <ul>
+                    <li>Incaantation Hechizos y artilugios CIF F23347494</li>
+                    <li>Calle La Flauta Magica 66, Madrid. ESPAÑA</li>
+                    <li>Telefono: 697 567 666</li>
+                    <li><a href="mailto:incaantation@spells.com">incaantation@spells.com</a> </li>
+                </ul>
+            </div>
+            <div >
+                <div><img src="img/metodos-pago.png" width="400"></div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
